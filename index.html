@@ -43,7 +43,7 @@ img#logo {
 			<div id="wrapper">
                 <!-- Header -->
 			<header id="header">
-	        	<div><img src="https://s2.loli.net/2022/07/09/fKP85t4cUBMCA2R.png" id="logo"></div>
+	        	<div><img src="https://s2.loli.net/2022/07/11/bUaciRXOr3H4fZj.png" id="logo"></div>
 						<div class="content">
 							<div class="inner">
 								<h1>AIUNA</h1>
@@ -52,11 +52,10 @@ img#logo {
 						</div>
 						<nav>
 							<ul>
-		<li><a charset="utf-8" href=""><i class="fa fa-home"></i>=></a></li>	
+		<li><a charset="utf-8" href=""><i class="fa fa-home"></i>HOME</a></li>	
 		<li><a charset="utf-8" href="https://aiuna.neocities.org/colortest/" target="_blank"><i class="iconfont"></i>色弱测试</a></li>	
 		<li><a charset="utf-8" href="https://aiuna.neocities.org/CUBE/" target="_blank"><i class="iconfont"></i>3D魔方小游戏</a></li>
 		<li><a charset="utf-8" href="https://aiuna.neocities.org/qjm/" target="_blank"><i class="iconfont"></i>切积木</a></li>
-		<li><a charset="uft-8" href="https://ilisfairy.github.io/c2-Sans-Fight/" target="_blank"><i class="iconfont"></i>Sans Fight</a></li>
 		<li><a charset="utf-8" href="https://aiuna.neocities.org/catch-cat/" target="_blank"><i class="iconfont"></i>堵住那只nya!</a></li>	
 		<li><a charset="utf-8" href="https://ilisfairy.github.io/EatNya/" target="_blank"><i class="iconfont"></i>EatNya</a></li>
 		<li><a charset="utf-8" href="https://aiuna.neocities.org/resume/" target="_blank"><i class="iconfont"></i>RESUME</a></li>
@@ -66,7 +65,7 @@ img#logo {
 					</header>
 		         		<!-- Footer -->
 					<footer id="footer">
-						<p charset="utf-8" class="copyright">© 2022 <a href="https://github.com/Auena/" target="">Aiuna</a></p>
+						<p charset="utf-8" class="copyright">© 2021-2022 <a href="https://github.com/Auena/" target="">Aiuna</a></p>
 					</footer>
 			</div>
 		<!-- BG -->
@@ -76,7 +75,34 @@ img#logo {
 			<script charset="utf-8" src="js/skel.min.js" ></script>
 			<script charset="utf-8" src="js/util.js" ></script>
 			<script charset="utf-8" src="js/main.js" ></script>
-</body>
-</html>
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1824933564&auto=1&height=32"></iframe>
+			<script>
+				var originTitle = document.title;
+				var titleTime;
+				document.addEventListener("visibilitychange", function () {
+				  if (document.hidden) {
+					document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+					clearTimeout(titleTime);
+				  } else {
+					document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+					titleTime = setTimeout(function () {
+					  document.title = originTitle;
+					}, 2000);
+				  }
+				});
+			  </script>
+
+<div>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=509964012&auto=1&height=66"></iframe>
+  </div>	
+
+<nobr> ______     ______     __    __     ______     ______  <br />
+	/\  == \   /\  ___\   /\ "-./  \   /\  __ \   /\__  _\ <br />
+	\ \  __<   \ \ \____  \ \ \-./\ \  \ \  __ \  \/_/\ \/ <br />
+	 \ \_____\  \ \_____\  \ \_\ \ \_\  \ \_\ \_\    \ \_\ <br />
+	  \/_____/   \/_____/   \/_/  \/_/   \/_/\/_/     \/_/ <br />
+	                                                       </nobr>
+
+
+    </body>
+</html>
