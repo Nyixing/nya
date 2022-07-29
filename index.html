@@ -31,7 +31,7 @@
     </header>
     <footer id="footer">
         <p charset="utf-8" class="copyright">© 2022 <a href="https://github.com/Nyaie/" target="">Nyaie</a></p>
-        <a href="" target="_blank" class="copyright">愿每个人都被这世界温柔以待</a>
+        <a href="https://icp.gov.moe/?keyword=20220976" target="_blank">萌ICP备20220976号</a>
     </footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" crossorigin="anonymous"></script>
@@ -40,5 +40,22 @@
 <script src="/assets/js/util.js"></script>
 
 <script src="/assets/js/shared.js" defer></script>
+
+<script>
+    var originTitle = document.title;
+    var titleTime;
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) {
+        document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+        clearTimeout(titleTime);
+      } else {
+        document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+        titleTime = setTimeout(function () {
+          document.title = originTitle;
+        }, 2000);
+      }
+    });
+  </script>
+  
 </body>
 </html>
